@@ -8,6 +8,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 public class PositionTrackerApplication {
 	public static void main(String[] args) {
+			System.setProperty("server.port", "8080");
 	    SpringApplication.run(PositionTrackerApplication.class, args);
 	}
 }
